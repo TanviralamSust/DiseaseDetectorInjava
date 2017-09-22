@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="FirstPageAnchorPane" prefHeight="595.0" prefWidth="724.0" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newtry.FirstSceneController">
+   <children>
+      <ListView fx:id="listView" layoutX="37.0" layoutY="98.0" prefHeight="412.0" prefWidth="641.0" />
+      <Label layoutX="24.0" layoutY="47.0" prefHeight="36.0" prefWidth="501.0" text="1.Give checks to those which matches your conditions :-" textFill="#d13611">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="293.0" layoutY="7.0" prefHeight="40.0" prefWidth="164.0" text="Easy Doctor" textFill="#ae2323">
+         <font>
+            <Font name="System Italic" size="28.0" />
+         </font>
+      </Label>
+      <Button id="MyChoice" layoutX="531.0" layoutY="527.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="48.0" prefWidth="147.0" text="Submit condition" textFill="#ae2222">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Label id="ForthAnchorPane" fx:id="lastLabel" layoutX="225.0" layoutY="551.0" prefHeight="17.0" prefWidth="246.0" stylesheets="@../Style.css" text="Please Check your desire Symtom" visible="false" />
+      <Button id="MyChoice" layoutX="37.0" layoutY="527.0" mnemonicParsing="false" onAction="#menuButtonClicked" prefHeight="48.0" prefWidth="147.0" text="Go to main menu" textFill="#d01111">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

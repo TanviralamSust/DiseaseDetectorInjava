@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="SecondAnchorPane" prefHeight="462.0" prefWidth="661.0" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newtry.ThirdSceneController">
+   <children>
+      <ListView fx:id="listView" layoutX="40.0" layoutY="87.0" onMouseClicked="#mouseClicked" prefHeight="288.0" prefWidth="505.0" />
+      <Label layoutX="40.0" layoutY="24.0" text="your syntoms matches with the following:" textFill="#b91f14">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="478.0" layoutY="393.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="33.0" prefWidth="149.0" text="Back to main menu">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Button>
+      <Button layoutX="28.0" layoutY="389.0" mnemonicParsing="false" onAction="#onbuttonclick" prefHeight="41.0" prefWidth="129.0" text="Back to previous" textFill="#542c2c">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+      <Label layoutX="39.0" layoutY="55.0" text="(please press the diseas if you want to know the  symtoms of these diseases)" textFill="#d01616">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

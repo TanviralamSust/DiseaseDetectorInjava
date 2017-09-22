@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="FifthAnchorPane" prefHeight="492.0" prefWidth="627.0" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newtry.ForthSceneController">
+   <children>
+      <ListView fx:id="listView" layoutX="47.0" layoutY="79.0" prefHeight="317.0" prefWidth="511.0" />
+      <Label layoutX="47.0" layoutY="37.0" prefHeight="33.0" prefWidth="165.0" text="Symstoms for clicked diseses:" />
+      <Button layoutX="473.0" layoutY="421.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="48.0" prefWidth="127.0" styleClass="homebutton1" stylesheets="@../Style.css" text="Back to previous" textFill="#feffff">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

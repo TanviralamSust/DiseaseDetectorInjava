@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2016, 3:04:30 AM
+    Author     : NIHAL
+*/
+
+.button{
+    -fx-background-color: #98F5FF;
+}
+.homebutton1{
+    -fx-background-color: #455a64;
+}
+.homebutton{
+    -fx-background-color: #424242;
+}
+.homebutton2{
+    -fx-background-color: #424242;
+}
+.homebutton3{
+    -fx-background-color: #37474f;
+}
+.homebutton4{
+    -fx-background-color: #455a64;
+}
+#MyChoice{
+    -fx-background-color: burlywood;
+}
+#MyHomeChoice{
+    -fx-background-color: #455a64;
+}
+#AnchorPane{
+    -fx-background-image: url("easydb2.jpg");
+}
+#2ndAnchorPane{
+    -fx-background-image: url("easydb3.jpg");
+}
+#secondpageAnchorPane{
+    -fx-background-image: url("easydb4.jpg");
+}
+#HomeAnchorPane{
+    -fx-background-image: url("pencil_Fotor.jpg");
+}
+#HomepageAnchorPane{
+    -fx-background-image: url("pencil.jpg");
+}
+#FirstAnchorPane{
+    -fx-background-image: url("pin.jpg");
+}
+#ForthAnchorPane{
+    -fx-background-image: url("symtom.jpg");
+}
+#ThirdAnchorPane{
+    -fx-background-image: url("backside.jpg");
+}
+#FifthAnchorPane{
+    -fx-background-image: url("color.jpg");
+}
+#SecondAnchorPane{
+    -fx-background-image: url("stick.jpg");
+}
+#FirstPageAnchorPane{
+    -fx-background-image: url("doc.jpg");
+}
+
+#HomebuttonAnchorPane{
+    -fx-background-image: url("brickwall.jpg");
+}
+
+#ForthAnchorPane{
+    -fx-background-image: url("health3.jpg");
+}
+#DiseasecheckAnchorPane{
+    -fx-background-image: url("pin.jpg");
+}
+#DiseaseAnchorPane{
+    -fx-background-image: url("pic5513.jpg");
+}
+#CreditsAnchorPane{
+    -fx-background-image: url("credits.jpg");
+}
